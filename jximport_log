@@ -1,0 +1,20 @@
+WARNING
+
+Traditional Jenkins masters are being deprecated and removed from all new Jenkins X releases starting on April 20, 2020.
+We strongly recommend using the default Tekton-based configuration instead for all Jenkins X activity going forward. We do not recommend using the Jenkins X workflow based around Jenkins masters.
+
+For more information: https://jenkins-x.io/blog/2020/03/11/tekton/
+WARNING: No username defined for the current Git server!
+[0G[2K[1;92m? [0m[1;99mDo you wish to use emalpb as the Git user name: [0m[37m(Y/n) [0m[?25l7[999;999f[6n8[?25h[6ny[1D
+[1E[1F[0G[2K[1;92m? [0m[1;99mDo you wish to use emalpb as the Git user name: [0m[36mYes[0m
+performing pack detection in folder /home/emanuelderito/tesis-derito
+--> Draft detected JSON (94.856513%)
+--> Could not find a pack for JSON. Trying to find the next likely language match...
+--> Draft detected YAML (1.884994%)
+--> Could not find a pack for YAML. Trying to find the next likely language match...
+--> Draft detected JavaScript (1.469259%)
+selected pack: /home/emanuelderito/.jx/draft/packs/github.com/jenkins-x-buildpacks/jenkins-x-kubernetes/packs/javascript
+WARNING: existing Dockerfile, Jenkinsfile and charts folder found so skipping 'draft create' step
+replacing placeholders in directory /home/emanuelderito/tesis-derito
+app name: tesis-derito, git server: github.com, org: emalpb, Docker registry org: tesis-271417
+skipping directory "/home/emanuelderito/tesis-derito/.git"
