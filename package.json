@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "exit 0t",
+    "test": "exit 0",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
