@@ -18,3 +18,17 @@ WARNING: existing Dockerfile, Jenkinsfile and charts folder found so skipping 'd
 replacing placeholders in directory /home/emanuelderito/tesis-derito
 app name: tesis-derito, git server: github.com, org: emalpb, Docker registry org: tesis-271417
 skipping directory "/home/emanuelderito/tesis-derito/.git"
+Created Jenkins Project: http://jenkins.jx.34.95.207.196.nip.io/job/emalpb/job/tesis-derito/
+
+Watch pipeline activity via:    jx get activity -f tesis-derito -w
+Browse the pipeline log via:    jx get build logs emalpb/tesis-derito/master
+You can list the pipelines via: jx get pipelines
+When the pipeline is complete:  jx get applications
+
+For more help on available commands see: https://jenkins-x.io/developing/browsing/
+
+Note that your first pipeline may take a few minutes to start while the necessary images get downloaded!
+Triggered Jenkins job:  http://jenkins.jx.34.95.207.196.nip.io/job/emalpb/job/tesis-derito/
+WARNING: Querying webhooks on emalpb/tesis-derito: GET https://api.github.com/repos/emalpb/tesis-derito/hooks: 401 Bad credentials []
+Creating GitHub webhook for emalpb/tesis-derito for url http://jenkins.jx.34.95.207.196.nip.io/github-webhook/
+error: registering Jenkins webhook: POST https://api.github.com/repos/emalpb/tesis-derito/hooks: 401 Bad credentials []
